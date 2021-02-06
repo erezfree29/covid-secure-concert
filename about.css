@@ -243,3 +243,9 @@ ul li::before {
     margin-left: 5px;
   }
 }
+
+@media (min-width: 1440px) {
+  .about_card {
+    font-size: 1rem;
+  }
+}
