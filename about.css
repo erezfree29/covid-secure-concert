@@ -1,0 +1,245 @@
+@font-face {
+  font-family: COCOGOOSE;
+  src: url('fonts/Cocogoose_trial.otf');
+}
+
+@font-face {
+  font-family: Lato;
+  src: url('fonts/Lato-Regular.ttf');
+  font-weight: 600;
+}
+
+.lato {
+  font-family: Lato, sans-serif;
+}
+
+.body {
+  background-color: #f9f9f9;
+}
+
+.pink {
+  color: hotpink;
+  width: 100%;
+}
+
+.center {
+  transition: width 2s, height 2s, background-color 2s, transform 2s;
+}
+
+.center:hover {
+  transform: rotate(360deg);
+}
+
+.covid {
+  color: red;
+}
+
+.year {
+  margin-left: 20%;
+  color: greenyellow;
+}
+
+.event {
+  margin-left: 14%;
+}
+
+.about_card {
+  box-shadow: 0 4px 8px 0 gray;
+  transition: 0.3s;
+  width: 90%;
+  margin-left: 5%;
+  background-color: #414246;
+  color: white;
+  font-family: COCOGOOSE, sans-serif;
+}
+
+.live {
+  text-decoration: underline;
+}
+
+.live_event {
+  margin-top: 20px;
+  margin-left: 3%;
+  background-color: rgb(240, 236, 229);
+  font-family: Lato, sans-serif;
+}
+
+.left {
+  padding-left: 2%;
+}
+
+.up {
+  padding-top: 3%;
+}
+
+.foot_bottom {
+  background-color: #414246;
+  font-family: Lato, sans-serif;
+}
+
+.foot_top {
+  background-color: white;
+}
+
+.middle_line,
+.white {
+  color: gray;
+}
+
+.creative {
+  color: white;
+}
+
+ul {
+  list-style: none;
+  padding-right: 20%;
+  text-decoration: none;
+  padding-left: 4%;
+}
+
+ul li::before {
+  content: "\2022";
+  color: green;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+
+.fa-airbnb {
+  padding-top: 4%;
+}
+
+.contact {
+  font-size: 0.8rem;
+  font-family: Lato, sans-serif;
+}
+
+.support {
+  animation: rotate 50s infinite;
+  font-family: Lato, sans-serif;
+}
+
+@keyframes rotate {
+  100% {
+    transform: rotateY(180deg);
+  }
+}
+
+.logo_card {
+  display: flex;
+  justify-content: center;
+}
+
+.logo_card img {
+  width: 50%;
+}
+
+.gray_line {
+  border-top: 1px solid rgb(218, 208, 208);
+}
+
+.images img {
+  width: 320px;
+  margin-top: 10px;
+  margin-right: 35px;
+}
+
+.con_img {
+  position: relative;
+}
+
+@media (min-width: 768px) {
+  .pink {
+    margin-top: 60px;
+  }
+
+  .foot_top {
+    height: 15vh;
+    background-color: whitesmoke;
+  }
+
+  .about_card {
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    height: 25vh;
+  }
+
+  .creative_tablet,
+  .rights_tablet {
+    color: white;
+  }
+
+  ul,
+  .live_event {
+    height: 25vh;
+    font-size: 1.2rem;
+  }
+
+  .contact {
+    font-size: 1.5rem;
+    padding-top: 10%;
+  }
+
+  .email {
+    font-size: 1rem;
+  }
+
+  .live_event {
+    width: 83%;
+    margin-left: 10%;
+    height: 25vh;
+    background-color: #f9f9f9;
+  }
+
+  .images {
+    display: flex;
+    justify-content: center;
+  }
+
+  .see_you {
+    position: absolute;
+    bottom: 80px;
+    left: 40px;
+    font-size: 1.3rem;
+    color: white;
+    font-family: Lato, sans-serif;
+  }
+}
+
+@media (min-width: 1024px) {
+  .contact {
+    margin-top: 45vh;
+  }
+
+  .foot_top {
+    height: 20vh;
+  }
+
+  .live_event {
+    margin-top: 10vh;
+    margin-bottom: -60vh;
+    width: 86%;
+    margin-left: 8%;
+  }
+
+  ul li {
+    line-height: 1.5rem;
+    font-size: 1rem;
+  }
+
+  .covid {
+    margin-left: 500px;
+  }
+
+  .year {
+    margin-left: 600px;
+  }
+
+  .about_info {
+    width: 97%;
+  }
+
+  .event {
+    margin-left: 5px;
+  }
+}
