@@ -581,7 +581,7 @@ footer {
   .artist {
     width: 50%;
     height: 20vh;
-    animation: rotate 100s infinite;
+    animation: rotate 50s infinite;
   }
 
   .mozzila {
