@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Concert hall</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./tickets.css"/>
+    <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.no-icons.min.css" rel="stylesheet">
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
+      integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="mobile_nav_top tablet_hidden lato">
+          <div class="mobile_nav_left">
+            <div class="dropdown">
+              <div><i class="fas fa-bars"></i></div>
+              <div class="dropdown-content">
+                <div><a href="./index.html">Home</a></div>
+                <div><a href="./about.html">About</a></div>
+                <div><a href="#">Join</a></div>
+              </div>
+            </div>
+            <div class="bee">Be<img src="./assets/images/line.png" class="e_line" alt="line"></div>
+          </div>
+          <div class="mobile_nav_right">
+            <i class="fas fa-search"></i>
+          </div>
+        </div>
+        <div class="tablet_nav_top mobile_hidden lato">
+            <div class="pl-0 pr-3 d-md-block"><i class="fab fa-facebook-f"></i></div>
+            <div class="pl-0 pr-4"><i class="fab fa-twitter"></i></div>
+            <div class="pl-0 pr-4"><a href="#">Logout</a></div>
+            <div><a href="#">Mypage</a></div>
+        </div>
+        <div class="tablet_nav_bottom  mobile_hidden lato">
+          <div class="tablet_nav_bottom_left">
+            <div><i class="fas fa-globe-europe"></i></div>
+            <div>
+              <div>Global pepole</div>
+              <div>Concert 2021</div>
+            </div>
+          </div>
+          <div class="tablet_nav_bottom_right d-none d-md-flex pb-3 justify-content-around lato">
+            <div class="d-none  pl-0 pr-2 d-md-block"><a href="./index.html">Home</a></div>
+            <div class="d-none  pl-0 pr-2 d-md-block"><a href="./about.html">About</a></div>
+            <div class="d-none  pl-0 pr-2 d-md-block"><a href="#">Join</a></div>
+            <div class="d-none  pl-0 pr-2 d-md-block"><a href="#">Sponser</a></div>
+            <div class="d-none  pl-0 pr-2 d-md-block"><a href="#">News</a></div>
+            <div class="d-none  pl-0 pr-2 d-md-block"><a href="#">Campaign</a></div>
+          </div>
+        </div>
+        <div class="bottom_nav tablet_hidden">
+          <div class="guitar"><i class="fas fa-guitar"></i></div>
+          <div class="concert">
+            <div class="theme">2021 covid secure concert</div>
+            <div class="creator">Erez Friemagor<i class="fas fa-circle fa-xs"></i>Follow</div>
+          </div>
+            <div class="circle first_cricle"><i class="fas fa-folder"></i></div>
+            <div class="circle"><i class="fas fa-plus"></i></div>
+        </div>
+        <hr class="second_line tablet_hidden">
+      </nav> 
+    </header>
+    <main>
+      <form>
+        <h1 class="featured top lato">Select Tickets</h1
+          >
+        <hr class="third_line">
+        <div class="red tablet_hidden"><i class="fas fa-caret-up redd"></i>STEP ONE</div>
+        <div class="select_mobile tablet_hidden rounded">
+          Please select the day when you want to join the creative souls event
+        </div>
+        <div class="select_ticket mobile_hidden d-flex justify-content-center rounded">
+          <div class="mobile_hidden"><i class="fas fa-caret-up redd"></i><span class="redd">STEP 1</span></div>
+          <div class="select mobile_hidden">Please select the day when you want 
+            to join the creative souls event 2021
+          </div>
+        </div>
+        <table class="table table-bordered">
+          <thead>
+            <tr>
+              <th scope="col">Ticket</th>
+              <th scope="col">1-Day-Ticket</th>
+              <th colspan="2">2-Day-Ticket</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Date</td>
+              <td>09.Apr(Thu)</td>
+              <td>10.Apr(Fri)</td>
+              <td>9.10.Apr(Thu-Fri)</td>
+            </tr>
+            <tr>
+              <td>Normal</td>
+              <td class="redd">
+                800$
+                <div><input type="radio" id="Thursday_normal" name="day" value="eight"></div>
+              </td>
+              <td class="redd">
+                800$
+                <div><input type="radio" id="Friday_normal" name="day" value="eight"></div>
+            </td>
+              <td class="redd">
+                1000$
+                <div><input type="radio" id="both_normal" name="day" value="ten"></div>
+              </td>
+            </tr>
+            <tr>
+              <td>Student</td>
+              <td class="redd">
+                600$
+                <div><input type="radio" id="Thursday_student" name="day" value="six"></div>
+              </td>
+              <td class="redd">
+                600$
+                <div><input type="radio" id="Friday_student" name="day" value="six"></div>
+              </td>
+              <td class="redd">
+                750$
+                <div><input type="radio" id="both_student" name="day" value="seven_half"></div>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      <h1 class="featured align_lunch lato">Select Lunch</h1>
+      <hr class="third_line">
+      <div class="menu_thur">
+        <div class="top_box lato">Day 1</div>
+      </div>
+      <div class="menu_thur">
+        <div class="bottom_box d-flex align-items-center justify-content-center">
+          <div class="pl-4 pr-1">
+            <div class="lato">Fish</div>
+            <div class="pl-2"><input type="radio" id="fish" name="fish" value="seven_half"></div>
+          </div>
+          <div class="pr-2 lato">
+            Meat
+            <div class="pl-2"><input type="radio" id="meat" name="meat" value="seven_half"></div>
+          </div>
+          <div class="pr-2">
+            <div class="lato">pasta</div>
+            <div class="pl-2"><input type="radio" id="pasta" name="pasta" value="seven_half"></div>
+          </div>
+          <div>
+            <div class="lato">Vegan</div>
+            <div class="pl-2"><input type="radio" id="vegan" name="vegan" value="seven_half"></div>
+          </div>
+        </div>
+      </div>
+      <div class="menu_thur">
+        <div class="top_box">Day 2</div>
+      </div>
+      <div class="menu_thur">
+        <div class="bottom_box d-flex align-items-center justify-content-center">
+          <div class="pl-4 pr-1">
+            <div class="lato">Fish</div>
+            <div class="pl-2"><input type="radio" id="fish" name="fish" value="seven_half"></div>
+          </div>
+          <div class="pr-2 lato">
+            Meat
+            <div class="pl-2"><input type="radio" id="meat" name="meat" value="seven_half"></div>
+          </div>
+          <div class="pr-2">
+            <div>pasta</div>
+            <div class="pl-2"><input type="radio" id="pasta" name="pasta" value="seven_half"></div>
+          </div>
+          <div>
+            <div>Vegan</div>
+            <div class="pl-2"><input type="radio" id="vegan" name="vegan" value="seven_half"></div>
+          </div>
+        </div>
+      </div>
+      <input type="submit" value="Submit" class="submit">
+    </form>
+    </main>
+    <footer>
+      <div class="foot_top">
+         <h4 class="featured white lato">Partner</h4>
+         <hr class="third_line">
+         <div class="middle_line">
+           <div class="pr-5 mozzila lato">Mozzila</div>
+           <div class="pr-5 lato">google</div>
+           <div class="lato">Naver</div>
+         </div>
+         <div class="last_line">
+           <div class="pr-5 dum">ᴅᴜᴍᴀᴋᴀᴋᴏ</div>
+           <div class="pr-5 d-flex"><i class="fab fa-airbnb pr-1 lato"></i><span>Airbandb</span></div>
+         </div>
+      </div>
+      <div class="foot_bottom">
+        <div><i class="fas fa-copyright"></i></div>
+        <div class="creative_tablet mobile_hidden">Creative People Solihull</div>
+        <div class="creative tablet_hidden">
+          <span class="break">Creative</span> 
+          people Solihull
+        </div>
+        <span class="rights"><span class="break tablet_hidden">Creative people Solihull</span> 
+           <span class="tablet_hidden">Some Rights Reserved</span>
+       </span>
+       <span class="rights_tablet mobile_hidden">2021 Creative People Solihull, 
+         some rights reserved
+       </span>
+      </div>
+    </footer>
+  </body>
+  </html>  
